@@ -13,9 +13,11 @@ $default:  #505050;
 
 $white:      #fff;
 $lightgrey:  #eee;
+$darkgrey:   #333;
 $black:      #000;
 
-$theme-color: $blue;
+/* $theme-color: $blue; */
+$theme-color: $darkgrey;
 $theme-color-dark: darken($theme-color, 10%);
 
 $post-date-color: #9a9a9a;
@@ -24,7 +26,7 @@ $masthead-title-small-color: #c0c0c0;
 
 /* Layout */
 $reverse-layout: true;
-$overlay-sidebar: false;
+$overlay-sidebar: true;
 
 /* Font stack */
 $font-serif: "PT Serif", Georgia, "Times New Roman", serif;
