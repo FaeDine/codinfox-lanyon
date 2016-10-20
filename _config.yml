@@ -1,7 +1,7 @@
 # Site Info
 title: FaeDine GameDev
-tagline: 'FaeDine&#39;s GameDev Stuff'
-description: 'Some other stuff here.'
+tagline: 'FaeDine GameDev'
+description: 'FaeDine GameDev'
 baseurl: ""
 url: http://www.faedine.com
 logo: '/public/logo.png'
@@ -16,7 +16,6 @@ excerpt_separator: "<!-- more -->"
 sass:
   style: compressed
   sass_dir: _scss    
-
   
 gems: [jekyll-paginate]
 paginate: 5
@@ -51,7 +50,7 @@ nav:
   About:          
     - '/about/'
   Github Project: 
-    - ''
+    - 'https://github.com/FaeDine/faedine.com-jekyll/'
 
 # Where are tags and categories displayed
 tag_page: '/blog/tags/'
